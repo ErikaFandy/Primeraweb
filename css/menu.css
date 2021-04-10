@@ -1,26 +1,37 @@
 
-nav{
-    background-color: rgba(233, 235, 217, 0);
-    color: rgb(99, 108, 235);
-
+nav {
+    background-color: cornsilk;
+   color: cyan;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
-
 }
 
-.menu li{
+.menu li {
     width: 10%;
     list-style: none;
-
 }
 
-.menu a{
- color: rgb(93, 58, 189);
+.menu a {
+ color: darkgray;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-decoration: none;
-
 }
 
+.logo {
+    flex-grow: 3;
+}
+
+.logo img {
+    width: 20%;
+    height: auto;
+}
+
+.menu a:hover {
+    background-color: darksalmon;
+    border: 5px darksalmon solid;
+ border-radius: 3px;
+ color: deeppink;
+}
